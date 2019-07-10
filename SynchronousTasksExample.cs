@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace playground
 {
-    public class SynchronousTasksExample
+    public static class SynchronousTasksExample
     {
         static public async Task run()
         {

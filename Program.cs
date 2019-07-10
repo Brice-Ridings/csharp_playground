@@ -11,8 +11,9 @@ namespace playground
         static void Main(string[] args)
         {
             Console.WriteLine("Starting Code");
-            ConcurrentTasksExample.run().Wait();
+            //ConcurrentTasksExample.run().Wait();
             //SynchronousTasksExample.run().Wait();
+            ThreadingExample.run();
         }
     }
 }
