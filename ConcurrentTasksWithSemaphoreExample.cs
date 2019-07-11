@@ -25,6 +25,7 @@ namespace playground
         }
     
 
+    // Example from https://blog.briandrupieski.com/throttling-asynchronous-methods-in-csharp
     public static class extensions
     {
         public static async Task ForEachAsyncSemaphore<T>(this IEnumerable<T> source,
