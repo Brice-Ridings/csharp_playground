@@ -13,7 +13,9 @@ namespace playground
             Console.WriteLine("Starting Code");
             //ConcurrentTasksExample.run().Wait();
             //SynchronousTasksExample.run().Wait();
-            ThreadingExample.run();
+            //ThreadingExample.run();
+            ConcurrentTasksWithSemaphoreExample.run().Wait();
+            //ConcurrentProcessingTimeSamples.run().Wait();
         }
     }
 }
